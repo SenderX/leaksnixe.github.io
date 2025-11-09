@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>@leaksnixe</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://get.wallhere.com/photo/water-mist-faded-waves-deep-sea-nature-1666991.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .header {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+    animation: glow 1.5s infinite alternate;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff;
+    }
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+  }
+
+  .buttons-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .button {
+    background-color: #fff;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #ddd;
+  }
+</style>
+</head>
+<body>
+
+<!-- Музыкальный плеер -->
+<audio autoplay loop>
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+  Ваш браузер не поддерживает тег audio.
+</audio>
+
+<div class="header">@leaksnixe</div>
+<div class="subtitle">@leaksnixe - имею знания OSINT, HUMINT, GEOINT, COD, EDIT, SOCMINT, SOCIAL</div>
+
+<div class="buttons-container">
+  <a href="https://t.me/yexzm" class="button" target="_blank" rel="noopener noreferrer">Сотрудничать</a>
+  <a href="https://t.me/h9ast/3" class="button" target="_blank" rel="noopener noreferrer">Биография</a>
+  <a href="https://t.me/otzivieboy/3" class="button" target="_blank" rel="noopener noreferrer">Отзывы</a>
+</div>
+
+</body>
+</html>
